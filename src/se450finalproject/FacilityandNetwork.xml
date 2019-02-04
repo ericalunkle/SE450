@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FacilityContent>
+    
+    <Facility Id="Seattle, WA">
+        <Name>Seattle</Name>
+        <Rate>8</Rate>
+        <Cost>300</Cost>
+        <Link>
+            <LinkId>Fargo, ND</LinkId>
+            <Distance>1426</Distance>
+        </Link>
+        <Link>
+          <LinkId>San Francisco, CA</LinkId>
+          <Distance>808</Distance>
+        </Link>
+    </Facility>
+
+
+    <Facility Id="San Francisco, CA">
+        <Name>SanFrancisco</Name>
+        <Rate>12</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>Seattle, WA</LinkId>
+          <Distance>808</Distance>
+        </Link>
+        <Link>
+          <LinkId>Denver, CO</LinkId>
+          <Distance>1249</Distance>
+        </Link>
+        <Link>
+          <LinkId>Los Angeles, CA</LinkId>
+          <Distance>382</Distance>
+        </Link>
+    </Facility>
+
+
+    <Facility Id="Los Angeles, CA">
+        <Name>LosAngeles</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>San Francisco, CA</LinkId>
+          <Distance>382</Distance>
+        </Link>
+        <Link>
+          <LinkId>Phoenix, AZ</LinkId>
+          <Distance>372</Distance>
+        </Link>
+    </Facility>
+
+    <Facility Id="Phoenix, AZ">
+        <Name>Phoenix</Name>
+        <Rate>8</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>Los Angeles, CA</LinkId>
+          <Distance>372</Distance>
+        </Link>
+        <Link>
+          <LinkId>Santa Fe, NM</LinkId>
+          <Distance>480</Distance>
+        </Link>
+    </Facility>
+
+    <Facility Id="Denver, CO">
+        <Name>Denver</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>San Francisco, CA</LinkId>
+          <Distance>1249</Distance>
+        </Link>
+        <Link>
+          <LinkId>Santa Fe, NM</LinkId>
+          <Distance>392</Distance>
+        </Link>
+        <Link>
+          <LinkId>Fargo, ND</LinkId>
+          <Distance>889</Distance>
+        </Link>
+        <Link>
+          <LinkId>St. Louis, MO</LinkId>
+          <Distance>851</Distance>
+        </Link>
+    </Facility>
+
+    <Facility Id="Santa Fe, NM">
+        <Name>SantaFe</Name>
+        <Rate>8</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>Phoenix, AZ</LinkId>
+          <Distance>480</Distance>
+        </Link>
+        <Link>
+          <LinkId>Denver, CO</LinkId>
+          <Distance>392</Distance>
+        </Link>
+        <Link>
+          <LinkId>Austin, TX</LinkId>
+          <Distance>688</Distance>
+        </Link>
+        <Link>
+          <LinkId>St. Louis, MO</LinkId>
+          <Distance>1032</Distance>
+        </Link>
+    </Facility>
+
+    <Facility Id="Fargo, ND">
+        <Name>Fargo</Name>
+        <Rate>8</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>Seattle, WA</LinkId>
+          <Distance>1426</Distance>
+        </Link>
+        <Link>
+          <LinkId>Denver, CO</LinkId>
+          <Distance>889</Distance>
+        </Link>
+        <Link>
+          <LinkId>Chicago, IL</LinkId>
+          <Distance>643</Distance>
+        </Link>
+    </Facility>
+
+    <Facility Id="Austin, TX">
+        <Name>Austin</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>Santa Fe, NM</LinkId>
+          <Distance>1426</Distance>
+        </Link>
+        <Link>
+          <LinkId>St. Louis, MO</LinkId>
+          <Distance>825</Distance>
+        </Link>
+        <Link>
+          <LinkId>New Orleans, LA</LinkId>
+          <Distance>512</Distance>
+        </Link>
+    </Facility>
+
+    <Facility Id="St. Louis, MO">
+        <Name>StLouis</Name>
+        <Rate>12</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>Chicago, IL</LinkId>
+          <Distance>297</Distance>
+        </Link>
+        <Link>
+          <LinkId>Denver, CO</LinkId>
+          <Distance>851</Distance>
+        </Link>
+        <Link>
+          <LinkId>Austin, TX</LinkId>
+          <Distance>825</Distance>
+        </Link>
+        <Link>
+          <LinkId>Nashville, TN</LinkId>
+          <Distance>309</Distance>
+        </Link>
+        <Link>
+          <LinkId>Santa Fe, NM</LinkId>
+          <Distance>1032</Distance>
+        </Link>
+    </Facility>
+
+    <Facility Id="Chicago, IL">
+        <Name>Chicago</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>Fargo, ND</LinkId>
+          <Distance>643</Distance>
+        </Link>
+        <Link>
+          <LinkId>St. Louis, MO</LinkId>
+          <Distance>297</Distance>
+        </Link>
+        <Link>
+          <LinkId>New York City, NY</LinkId>
+          <Distance>790</Distance>
+        </Link>
+        <Link>
+          <LinkId>Detroit, MI</LinkId>
+          <Distance>282</Distance>
+        </Link>
+    </Facility>
+
+    <Facility Id="New Orleans, LA">
+        <Name>NewOrleans</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>Austin, TX</LinkId>
+          <Distance>512</Distance>
+        </Link>
+        <Link>
+          <LinkId>Nashville, TN</LinkId>
+          <Distance>532</Distance>
+        </Link>
+        <Link>
+          <LinkId>Atlanta, GA</LinkId>
+          <Distance>469</Distance>
+        </Link>
+        <Link>
+          <LinkId>Miami, FL</LinkId>
+          <Distance>864</Distance>
+        </Link>
+    </Facility>    
+
+    <Facility Id="Nashville, TN">
+        <Name>Nashville</Name>
+        <Rate>8</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>St. Louis, MO</LinkId>
+          <Distance>309</Distance>
+        </Link>
+        <Link>
+          <LinkId>New Orleans, LA</LinkId>
+          <Distance>532</Distance>
+        </Link>
+        <Link>
+          <LinkId>Norfolk, VA</LinkId>
+          <Distance>706</Distance>
+        </Link>
+    </Facility>
+
+    <Facility Id="Detroit, MI">
+        <Name>Detroit</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>Chicago, IL</LinkId>
+          <Distance>282</Distance>
+        </Link>
+        <Link>
+          <LinkId>New York City, NY</LinkId>
+          <Distance>614</Distance>
+        </Link>
+        <Link>
+          <LinkId>Boston, MA</LinkId>
+          <Distance>719</Distance>
+        </Link>
+    </Facility>
+    
+    <Facility Id="Boston, MA">
+        <Name>Boston</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>Detroit, MI</LinkId>
+          <Distance>719</Distance>
+        </Link>
+        <Link>
+          <LinkId>New York City, NY</LinkId>
+          <Distance>215</Distance>
+        </Link>
+    </Facility>
+
+    <Facility Id="New York City, NY">
+        <Name>NewYorkCity</Name>
+        <Rate>14</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>Boston, MA</LinkId>
+          <Distance>215</Distance>
+        </Link>
+        <Link>
+          <LinkId>Detroit, MI</LinkId>
+          <Distance>614</Distance>
+        </Link>
+        <Link>
+          <LinkId>Chicago, IL</LinkId>
+          <Distance>790</Distance>
+        </Link>
+        <Link>
+          <LinkId>Norfolk, VA</LinkId>
+          <Distance>363</Distance>
+        </Link>
+    </Facility>
+
+    <Facility Id="Norfolk, VA">
+        <Name>Norfolk</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>New York City, NY</LinkId>
+          <Distance>363</Distance>
+        </Link>
+        <Link>
+          <LinkId>Nashville, TN</LinkId>
+          <Distance>706</Distance>
+        </Link>
+        <Link>
+          <LinkId>Atlanta, GA</LinkId>
+          <Distance>566</Distance>
+        </Link>
+    </Facility>
+
+    <Facility Id="Atlanta, GA">
+        <Name>Atlanta</Name>
+        <Rate>10</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>Norfolk, VA</LinkId>
+          <Distance>566</Distance>
+        </Link>
+        <Link>
+          <LinkId>New Orleans, LA</LinkId>
+          <Distance>469</Distance>
+        </Link>
+        <Link>
+          <LinkId>Miami, FL</LinkId>
+          <Distance>663</Distance>
+        </Link>
+    </Facility>
+
+    <Facility Id="Miami, FL">
+        <Name>Miami</Name>
+        <Rate>12</Rate>
+        <Cost>300</Cost>
+        <Link>
+          <LinkId>Atlanta, GA</LinkId>
+          <Distance>663</Distance>
+        </Link>
+        <Link>
+          <LinkId>New Orleans, LA</LinkId>
+          <Distance>864</Distance>
+        </Link>
+    </Facility>
+
+</FacilityContent>

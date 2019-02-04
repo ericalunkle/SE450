@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="scala-sdk-2.12.1">
+    <archive path="C:/Program Files (x86)/scala/lib/scala-library.jar" />
+    <archive path="C:/Program Files (x86)/scala/lib/scala-parser-combinators_2.12-1.0.4.jar" />
+    <archive path="C:/Program Files (x86)/scala/lib/scala-reflect.jar" />
+    <archive path="C:/Program Files (x86)/scala/lib/scala-swing_2.12-2.0.0-M2.jar" />
+    <archive path="C:/Program Files (x86)/scala/lib/scala-xml_2.12-1.0.6.jar" />
+  </library>
+</eclipse-userlibraries>
+

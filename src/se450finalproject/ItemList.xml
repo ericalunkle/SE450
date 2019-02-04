@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ItemContent>
+
+    <Item id="ABC123">
+        <Item>
+            <Id>ABC123</Id>
+            <Price>550</Price>
+        </Item>
+    </Item>
+
+    <Item id="PL132-C">
+        <Item>
+            <Id>PL132-C</Id>
+            <Price>440</Price>
+        </Item>
+    </Item>
+
+    <Item id="SR71-D">
+        <Item>
+            <Id>SR71-D</Id>
+            <Price>1600</Price>     
+        </Item>
+    </Item>
+
+    <Item id="CR2032">
+        <Item>
+            <Id>CR2032</Id>
+            <Price>240</Price>     
+        </Item>
+    </Item>
+
+    <Item id="PU238">
+        <Item>
+            <Id>PU238</Id>
+            <Price>2200</Price>     
+        </Item>
+    </Item>
+
+    <Item id="XLK200B">
+        <Item>
+            <Id>XLK200B</Id>
+            <Price>820</Price>     
+        </Item>
+    </Item>
+
+    <Item id="CT1928">
+        <Item>
+            <Id>CT1928</Id>
+            <Price>910</Price>     
+        </Item>
+    </Item>
+
+    <Item id="RL123A">
+        <Item>
+            <Id>RL123A</Id>
+            <Price>360</Price>     
+        </Item>
+    </Item>
+
+    <Item id="XTP202">
+        <Item>
+            <Id>XTP202</Id>
+            <Price>345</Price>     
+        </Item>
+    </Item>
+
+    <Item id="E241i">
+        <Item>
+            <Id>E241i</Id>
+            <Price>10400</Price>     
+        </Item>
+    </Item>
+
+    <Item id="RTF110">
+        <Item>
+            <Id>RTF110</Id>
+            <Price>715</Price>     
+        </Item>
+    </Item>  
+
+    <Item id="ZTF109">
+        <Item>
+            <Id>ZTF109</Id>
+            <Price>1100</Price>     
+        </Item>
+    </Item>
+
+    <Item id="JBL3100">
+        <Item>
+            <Id>JBL3100</Id>
+            <Price>180</Price>     
+        </Item>
+    </Item>
+
+    <Item id="RX100-3">
+        <Item>
+            <Id>RX100-3</Id>
+            <Price>642</Price>     
+        </Item>
+    </Item>
+
+    <Item id="MM35P">
+        <Item>
+            <Id>MM35P</Id>
+            <Price>1950</Price>     
+        </Item>
+    </Item>
+
+    <Item id="SN-241-L">
+        <Item>
+            <Id>SN-241-L</Id>
+            <Price>620</Price>     
+        </Item>
+    </Item>
+
+</ItemContent>
